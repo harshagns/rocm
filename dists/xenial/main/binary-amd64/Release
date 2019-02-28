@@ -1,0 +1,7 @@
+Archive: Ubuntu 16.04
+Version: 1.6
+Component: main
+Origin: repo.radeon.com
+Label: repo.radeon.com
+Architecture: amd64
+Description: ROCm APT Repository

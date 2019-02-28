@@ -1,0 +1,11 @@
+Origin: repo.radeon.com 
+Label: repo.radeon.com
+Suite: Ubuntu 16.04
+Codename: xenial
+Version: 1.6
+Architectures: amd64
+Components: main
+Description: ROCm APT Repository
+SignWith: 1A6D36BA
+DebOverride: override.testing
+DscOverride: override.testing

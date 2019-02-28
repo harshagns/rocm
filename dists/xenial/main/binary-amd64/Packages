@@ -1,0 +1,463 @@
+Package: atmi
+Version: 0.3.7-45-gde867f2
+Architecture: amd64
+Depends: hsa-rocr-dev
+Homepage: https://github.com/RadeonOpenCompute/atmi
+Installed-Size: 2556
+Maintainer: Ashwin Aji <ashwin.aji@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/a/atmi/atmi_0.3.7-45-gde867f2_amd64.deb
+Size: 769132
+SHA256: 03cbfaafc861c841b8f9785df1440bd0fd80e446d8e8189ee82bfbfd135d8111
+SHA1: 5d0bde503f60e11d9024cb52ce28efce830df5bc
+MD5sum: a4e350abf5c9d22caea27a8ee793fbda
+Description: ATMI: Asynchronous Task and Memory Interface
+
+Package: compute-firmware
+Version: 1.2.562
+Architecture: all
+Maintainer: Andres Rodriguez <andres.rodriguez@amd.com>
+Installed-Size: 35641
+Replaces: linux-firmware
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/c/compute-firmware/compute-firmware_1.2.562_all.deb
+Size: 3210398
+SHA256: d6aafebbf8a59f3fc6d2226aae9b69311163fddae4bb35c6a272b26f47cffca1
+SHA1: e2fc146bb9cf143f36a4906ee8fe4a71662ce411
+MD5sum: e1f32a99df972c1fb205350f7ea1ca71
+Description: Firmware support package for radeon and amdgpu driver
+ This package contains firmware binary blobs required by the amdgpu,
+ radeon, and amdkfd drivers.
+
+Package: cxlactivitylogger
+Version: 5.3.6544
+Architecture: amd64
+Maintainer: AMD Developer Tools <gputools.support@amd.com>
+Installed-Size: 7968
+Homepage: https://github.com/RadeonOpenCompute/ROCm-Profiler
+Priority: extra
+Section: unknown
+Filename: pool/main/c/cxlactivitylogger/cxlactivitylogger_5.3.6544_amd64.deb
+Size: 3435720
+SHA256: a36b2691c95c4168d0706f9c348e7f767aee898383e6cb2c38f6decdb8f34077
+SHA1: 00580dd4db35b8a6b905482e842c7c3a613189aa
+MD5sum: 6db9521a3a3a8fc61a63bd4e61165845
+Description: CXLActivityLogger(AMDTActivityLogger) 
+
+Package: hcc
+Version: 1.0.17412
+Architecture: amd64
+Depends: g++-multilib, gcc-multilib, findutils, libelf1, libpci3, file, libunwind8, libunwind-dev , hsa-rocr-dev, hsa-ext-rocr-dev, rocm-utils 
+Installed-Size: 1182788
+Maintainer: Siu Chi Chan <siuchi.chan@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hcc/hcc_1.0.17412_amd64.deb
+Size: 181965004
+SHA256: bb1b2b718e53fecabb2c93a9a2de15797485c0b415a4a472f1cbfbd9c2c0a067
+SHA1: 4106d44d2fc4b834b00fd5f93da4d599cca0886a
+MD5sum: 393b75bd547140ce2ad588745b01eed8
+Description: HCC: An Open Source, Optimizing C++ Compiler for Heterogeneous Compute
+
+Package: hcfft
+Version: 0.1.1
+Architecture: amd64
+Installed-Size: 3511
+Maintainer: Neelakandan <neelakandan@multicorewareinc.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hcfft/hcfft_0.1.1_amd64.deb
+Size: 1011116
+SHA256: a9623b885dfb7cea4690098ce741ac761cd37ad29c1d3a205f78f96983d5f7fe
+SHA1: 6af6933bdde7a7b09a21f4975bc03003d0483935
+MD5sum: adb61790e12312275d48ed1a0f7a2059
+Description: HcFFT: an FFT Library based on Heterogeneous C++ construct
+
+Package: hcrng
+Version: 0.1.1
+Architecture: amd64
+Installed-Size: 4249
+Maintainer: Neelakandan <neelakandan@multicorewareinc.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hcrng/hcrng_0.1.1_amd64.deb
+Size: 882646
+SHA256: a2586ee979cead691822ee2a4de148e61b22132d0f863137d43dc93207e5b01e
+SHA1: 0fa6f3d0865c3ca84aa7b9a8a8134318390be4aa
+MD5sum: e6cdb2bca898e08b44e840825a097504
+Description: HcRNG: an implementation of uniform random number generators targetting the AMD heterogenous hardware via HCC compiler runtime
+
+Package: hip_base
+Version: 1.3.17385
+Architecture: amd64
+Depends: perl (>= 5.0)
+Installed-Size: 888
+Maintainer: Maneesh Gupta <maneesh.gupta@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip_base/hip_base_1.3.17385_amd64.deb
+Size: 104654
+SHA256: 6b46ba6e1c901ffba00fa019bd77b81a5128c782bc45ecdc240583293ccd5ed0
+SHA1: 85321d79c3fe50443855b34fa927f7ca170e3f26
+MD5sum: d4ebaa2ca252e4781cb79a3cd7956768
+Description: HIP: Heterogenous-computing Interface for Portability [BASE]
+
+Package: hip_doc
+Version: 1.3.17385
+Architecture: amd64
+Depends: hip_base (= 1.3.17385)
+Installed-Size: 6446
+Maintainer: Maneesh Gupta <maneesh.gupta@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip_doc/hip_doc_1.3.17385_amd64.deb
+Size: 693804
+SHA256: 1b978191b3fba5c4c666e808dd5dddb5a2447fb7ca1e31a168570d63e82f73d7
+SHA1: 5d7f05c92af44dd476b00e90ee411f22bcf72ca8
+MD5sum: f73e599d0a64e4ff0cd12e24f718b0df
+Description: HIP: Heterogenous-computing Interface for Portability [DOCUMENTATION]
+
+Package: hip_hcc
+Version: 1.3.17385
+Architecture: amd64
+Depends: hip_base (= 1.3.17385), hcc (= 1.0.17412)
+Installed-Size: 3907
+Maintainer: Maneesh Gupta <maneesh.gupta@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip_hcc/hip_hcc_1.3.17385_amd64.deb
+Size: 1055430
+SHA256: 70f731bdad91c273ca6e84d8cf9e86d6144b71159da8e09ebd01d9d221ef4182
+SHA1: 7a5ac9ffdde8404665104a9850043c0087966f76
+MD5sum: 56da24d98a63ebcce26c0b8f84747993
+Description: HIP: Heterogenous-computing Interface for Portability [HCC]
+
+Package: hip_nvcc
+Version: 1.3.17385
+Architecture: amd64
+Depends: hip_base (= 1.3.17385), cuda (>= 7.5)
+Installed-Size: 12
+Maintainer: Maneesh Gupta <maneesh.gupta@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip_nvcc/hip_nvcc_1.3.17385_amd64.deb
+Size: 664
+SHA256: ef3d44bca4655c6a64f60dd2d4fdea3d504271bb8b927a8a4c0a99238c5550c1
+SHA1: 6435096d3214b7db158c561ca848ef43d099b579
+MD5sum: 8b2ef13355f643972ea2b8c01699e418
+Description: HIP: Heterogenous-computing Interface for Portability [NVCC]
+
+Package: hip_samples
+Version: 1.3.17385
+Architecture: amd64
+Depends: hip_base (= 1.3.17385)
+Installed-Size: 442
+Maintainer: Maneesh Gupta <maneesh.gupta@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip_samples/hip_samples_1.3.17385_amd64.deb
+Size: 62582
+SHA256: 5aab6c46d6c57679511d4376a74f035829ffe65757234e69f231853c97422075
+SHA1: 1673a254daaf081a10b16402f9df45099f7b877e
+MD5sum: f2f646658ea66fcc1aa6363b1e1940d2
+Description: HIP: Heterogenous-computing Interface for Portability [SAMPLES]
+
+Package: hipblas
+Version: 0.6.0.8
+Architecture: amd64
+Depends: hip_hcc (>= 1.0.17174)
+Installed-Size: 1127
+Maintainer: Kent Knox <kent.knox@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblas/hipblas_0.6.0.8_amd64.deb
+Size: 62144
+SHA256: 37ce3b41f5ee1aae46212b5ee244e2379d391084e1e4212b77891138f15f77a6
+SHA1: 005825200b5c672f74d85fb22d6b9e4e68a22547
+MD5sum: 08573ada7f58eaf9139e7d750ed5148e
+Description: Radeon Open Compute BLAS marshelling library
+
+Package: hsa-ext-rocr-dev
+Version: 1.1.6-85-g466237c
+Architecture: amd64
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Installed-Size: 53340
+Maintainer: James Edwards (JamesAdrian.Edwards@amd.com)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-ext-rocr-dev/hsa-ext-rocr-dev_1.1.6-85-g466237c_amd64.deb
+Size: 9158150
+SHA256: b5dd84331ea62b26184a808e788c8a2ace86086bcf7d7ae6104109cb03d3d1da
+SHA1: 3621a4ed9b91b48aa6d55bbb4ad8853c4fcd34e6
+MD5sum: b91e1222278e2d79af8549137b17f846
+Description: AMD Heterogeneous System Architecture HSA - Linux HSA Runtime extensions for ROCm platforms
+
+Package: hsa-rocr-dev
+Version: 1.1.6-85-g466237c
+Architecture: amd64
+Depends: hsa-ext-rocr-dev (=1.1.6-85-g466237c) , hsakmt-roct-dev
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Installed-Size: 2596
+Maintainer: James Edwards (JamesAdrian.Edwards@amd.com)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-rocr-dev/hsa-rocr-dev_1.1.6-85-g466237c_amd64.deb
+Size: 369714
+SHA256: 02df15c09f6f98fc9b24d63b5790e1a1eb8a2a1d3f05a132b05fbbc7cb3871b0
+SHA1: 5306f3ffb6015143a6040ef5d7f47475dd0f9356
+MD5sum: 2b4c0e7582cd9bf49d915d662d40db2f
+Description: AMD Heterogeneous System Architecture HSA - Linux HSA Runtime for ROCm platforms
+
+Package: hsakmt-roct-dev
+Version: 1.0.6-14-g25a9bc2
+Architecture: amd64
+Depends: libpci3
+Homepage: https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface
+Installed-Size: 610
+Maintainer: Advanced Micro Devices Inc.
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsakmt-roct-dev/hsakmt-roct-dev_1.0.6-14-g25a9bc2_amd64.deb
+Size: 67452
+SHA256: 83efdd273f42ee7dcb57dd99559c1520f4d01606ed92d284826538ea351459a9
+SHA1: e7d94787762a38341b13da02c331cae2ecc35d4f
+MD5sum: 9cc6482f9e9044797609177b0cc5b19b
+Description: HSAKMT library for AMD KFD support
+
+Package: linux-headers-4.11.0-kfd-compute-rocm-rel-1.6-180
+Source: linux-4.11.0-kfd-compute-rocm-rel-1.6-180
+Version: 4.11.0-kfd-compute-rocm-rel-1.6-180-1
+Architecture: amd64
+Maintainer: Anonymous <root@jenkins-raptor-6.amd.com>
+Installed-Size: 75324
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.11.0-kfd-compute-rocm-rel-1.6-180/linux-headers-4.11.0-kfd-compute-rocm-rel-1.6-180_4.11.0-kfd-compute-rocm-rel-1.6-180-1_amd64.deb
+Size: 10808046
+SHA256: 514c8204809db26a3711ca322343cf701d907e29f3a90c92f88d19736a1ee1d0
+SHA1: a6a1e09ee51586137ee0eb0f2d3aa98e9c8484e5
+MD5sum: f866c369dff89726c4fb8c143b9c7b9e
+Description: Linux kernel headers for 4.11.0-kfd-compute-rocm-rel-1.6-180 on amd64
+ This package provides kernel header files for 4.11.0-kfd-compute-rocm-rel-1.6-180 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.11.0-kfd-compute-rocm-rel-1.6-180
+Source: linux-4.11.0-kfd-compute-rocm-rel-1.6-180
+Version: 4.11.0-kfd-compute-rocm-rel-1.6-180-1
+Architecture: amd64
+Maintainer: Anonymous <root@jenkins-raptor-6.amd.com>
+Installed-Size: 212742
+Suggests: linux-firmware-image-4.11.0-kfd-compute-rocm-rel-1.6-180
+Provides: linux-image, linux-image-2.6, linux-modules-4.11.0-kfd-compute-rocm-rel-1.6-180
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.11.0-kfd-compute-rocm-rel-1.6-180/linux-image-4.11.0-kfd-compute-rocm-rel-1.6-180_4.11.0-kfd-compute-rocm-rel-1.6-180-1_amd64.deb
+Size: 46513676
+SHA256: fc85738a2330a60c6558d79d48d64f0073c40666f6845abe2a503004f20980cb
+SHA1: c555b954b4b10284d494fe7ec56a6605455919fc
+MD5sum: 587acfc3ae66f07ef5b5d490125e2f09
+Description: Linux kernel, version 4.11.0-kfd-compute-rocm-rel-1.6-180
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.11.0-kfd-compute-rocm-rel-1.6-180.
+
+Package: miopen-hip
+Version: 1.1.4
+Architecture: amd64
+Depends: openssl, rocm-opencl-dev, rocm-utils, hip_hcc, miopengemm
+Installed-Size: 50487
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip/miopen-hip_1.1.4_amd64.deb
+Size: 2682076
+SHA256: a6462a26415f7a247f0b3f1d50cbfe516796e97228bdc55097a080679de3bc7d
+SHA1: 7067646f6dc4b972d8ae28a5c6aadfefbe5efa37
+MD5sum: 886f6f584dc81f5fbc4823c153404822
+Description: AMD's DNN Library
+
+Package: miopen-opencl
+Version: 1.1.4
+Architecture: amd64
+Depends: openssl, rocm-opencl-dev, rocm-utils, hip_hcc, miopengemm
+Installed-Size: 23775
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-opencl/miopen-opencl_1.1.4_amd64.deb
+Size: 1413948
+SHA256: 9ca932afb4dd32946fdb62821b63ae34127a21441aa391fc226b5e31e1151b9b
+SHA1: 28035ff4c863c53ec9d72bd82106dadcae22d3b0
+MD5sum: d1f3a2e6956fa73828487f9d02331fbe
+Description: AMD's DNN Library
+
+Package: miopengemm
+Version: 1.1.5
+Architecture: amd64
+Installed-Size: 8085
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopengemm/miopengemm_1.1.5_amd64.deb
+Size: 1045852
+SHA256: e2c7db84603b142c822e2c9ebf491a200113b6fe6b6409fa1c9bb454bfb3337f
+SHA1: 8866bfba219a53047af513fa1c548c6508b61a9c
+MD5sum: 5428d0cece51bbe72b8b205a070dd445
+Description: A tool for generating OpenCL matrix multiplication (GEMM) kernels
+
+Package: rocblas
+Version: 0.6.0.4
+Architecture: amd64
+Depends: hip_hcc (>= 1.0.17174)
+Installed-Size: 325525
+Maintainer: Kent Knox <kent.knox@amd.com>
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocblas/rocblas_0.6.0.4_amd64.deb
+Size: 11472256
+SHA256: 563f6650c70bdac90ba7894f781b0dd6124a98d17740a6c86b0f0c24a4674f4c
+SHA1: 8c4bf3b2529881d5dbb6d2355264b1de7298711f
+MD5sum: d3803b591bfdcfee811dca01f84ce327
+Description: Radeon Open Compute BLAS library
+
+Package: rocm
+Version: 1.6.180
+Architecture: amd64
+Depends: rocm-dev, compute-firmware, linux-headers-4.11.0-kfd-compute-rocm-rel-1.6-180, linux-image-4.11.0-kfd-compute-rocm-rel-1.6-180
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Installed-Size: 13
+Maintainer: Advanced Micro Devices Inc.
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm/rocm_1.6.180_amd64.deb
+Size: 1044
+SHA256: ea3deca86d3c000451bb482958e1ec86a95ad7e082b224da5ce3d4bb95022eeb
+SHA1: 4bffa6f30164c0ad35766804d53af580c4a55a36
+MD5sum: 81fe1f31dbbb66fcb92a1ef87c6e3543
+Description: Radeon Open Compute (ROCm) Runtime software stack
+
+Package: rocm-dev
+Version: 1.6.180
+Architecture: amd64
+Depends: hsa-rocr-dev (=1.1.6-85-g466237c), hsa-ext-rocr-dev (=1.1.6-85-g466237c), rocm-device-libs (=0.0.1), rocm-utils (=1.0.0), hcc (=1.0.17412), hip_base (=1.3.17385), hip_doc (=1.3.17385), hip_hcc (=1.3.17385), hip_samples (=1.3.17385), rocm-smi (=1.0.0-25-gbdb99b4), hsakmt-roct-dev (=1.0.6-14-g25a9bc2), cxlactivitylogger, rocm-profiler
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Installed-Size: 13
+Maintainer: Advanced Micro Devices Inc.
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dev/rocm-dev_1.6.180_amd64.deb
+Size: 902
+SHA256: aa5e19d07c29bdd8641206c048124497d66b8c0c91db2135ded31ea0bbfdf946
+SHA1: c96f32f99cff060d56b18d35a0dbfbeda1f9df01
+MD5sum: d343c0dc3bd4f0fcfb6ee9d6551aedfe
+Description: Radeon Open Compute (ROCm) Runtime software stack
+
+Package: rocm-device-libs
+Version: 0.0.1
+Architecture: amd64
+Homepage: https://github.com/RadeonOpenCompute/ROCm-Device-Libs
+Installed-Size: 2640
+Maintainer: AMD
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-device-libs/rocm-device-libs_0.0.1_amd64.deb
+Size: 587712
+SHA256: 5542c59ff57ee2814e7a6641e257f763e14b7839735f564c9b24020ba4e1b64d
+SHA1: 9466ae4567195ba26db93cd830d61b88a708caee
+MD5sum: f3a04407ab652060e8357a659d92fbc0
+Description: Radeon Open Compute - device libraries
+
+Package: rocm-libs
+Version: 1.6.180
+Architecture: amd64
+Depends: hcfft, hcrng, hipblas, rocblas
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Installed-Size: 13
+Maintainer: Advanced Micro Devices Inc.
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-libs/rocm-libs_1.6.180_amd64.deb
+Size: 772
+SHA256: d6deee6b863aa70fa548a395e8a75520e08fe1f24a195a29b8426778dd5bba1b
+SHA1: 6f9e5af32ec68994625c55a97b5efdce11a6562b
+MD5sum: a52305ac5189e398d92fb1c52cdd3a3b
+Description: Radeon Open Compute (ROCm) Runtime software stack
+
+Package: rocm-opencl
+Version: 1.2.0-1464666
+Architecture: amd64
+Maintainer: Laurent Morichetti
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl/rocm-opencl_1.2.0-1464666_amd64.deb
+Size: 36314438
+SHA256: 775b072a5c423c5f9b6bfa034937dbe21152cd9013566eb1e8b6d4aceb7dbcaa
+SHA1: fb8461eda5a98adde302f50808fbea2529c9f5ae
+MD5sum: cfcadcd0ea9fd8b908006ec093d2d767
+Description: OpenCL/ROCm
+Depends: hsa-rocr-dev (>= 1.1.5)
+
+Package: rocm-opencl-dev
+Version: 1.2.0-1464666
+Architecture: amd64
+Maintainer: Laurent Morichetti
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-dev/rocm-opencl-dev_1.2.0-1464666_amd64.deb
+Size: 15502500
+SHA256: 5c5c0cc20e9bcc3c5c2bed68647bb88c155c0a3e3da77a8d10b2231514f542e5
+SHA1: 9a52a3212b1f7dde71541be086e5ef16c45b7c8e
+MD5sum: c4ffa72e39c84e6e254c5697e0ee7f5c
+Description: OpenCL/ROCm
+Depends: rocm-opencl
+
+Package: rocm-profiler
+Version: 5.2.6552
+Architecture: amd64
+Maintainer: AMD Developer Tools <gputools.support@amd.com>
+Installed-Size: 48300
+Recommends: hsakmt-roct-dev (>=1.0.0)
+Homepage: https://github.com/RadeonOpenCompute/ROCm-Profiler
+Priority: extra
+Section: unknown
+Filename: pool/main/r/rocm-profiler/rocm-profiler_5.2.6552_amd64.deb
+Size: 7780258
+SHA256: 1d607889a3e9d7688a3edf6b93e2059ef71b9e9d77a831a3f81193e8ea8fd9c2
+SHA1: f8c4c0d705ac565a6d1bbc8f6dc04acbdc39c82f
+MD5sum: 111279848ea4aa3f42228b1738fc7e3a
+Description: The ROCm-Profiler is a command-line profiler for profiling applications running on the Radeon Open Compute platforms.
+
+Package: rocm-smi
+Architecture: amd64
+Maintainer: Advanced Micro Devices Inc.
+Version: 1.0.0-25-gbdb99b4
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-smi/rocm-smi_1.0.0-25-gbdb99b4_amd64.deb
+Size: 8158
+SHA256: f89b3f6b5eff6990d31e7761c6530f30d76c077f87918213a17c500425a3c0e9
+SHA1: 7a07a886eec95873d4d4c8c0a4967a42a7f7d893
+MD5sum: 8a2847d1e02a066f0a5f2ccca480aabf
+Description: System Management Interface for ROCm
+
+Package: rocm-utils
+Version: 1.0.0
+Architecture: amd64
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Installed-Size: 466
+Maintainer: James Edwards (JamesAdrian.Edwards@amd.com)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-utils/rocm-utils_1.0.0_amd64.deb
+Size: 172540
+SHA256: af17d7be177d4afd69704218fba177c58b94a7d8bac8ebf6d8a1be9f6bab910a
+SHA1: 1170ccc3adb49abfdbf1d638e891eee4368f3aa3
+MD5sum: 25343b6870d1791dfaaf23f1207047a4
+Description: AMD ROCm utilities - Utilities for ROCm platforms
+

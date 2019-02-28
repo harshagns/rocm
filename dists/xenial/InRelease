@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: repo.radeon.com
+Label: repo.radeon.com
+Suite: Ubuntu 16.04
+Codename: xenial
+Version: 1.6
+Date: Tue, 17 Oct 2017 21:47:54 UTC
+Architectures: amd64
+Components: main
+Description: ROCm APT Repository
+MD5Sum:
+ 0da7c99e015fe4014edbd18f7bbe95fe 16969 main/binary-amd64/Packages
+ 9774cfd7535eb0928fb5a863b9a07dab 5545 main/binary-amd64/Packages.gz
+ 7673de7403a75d151e7c73c7a47b2e7f 151 main/binary-amd64/Release
+SHA1:
+ 528408a67b99a9e46352325d95d009f74043a4f9 16969 main/binary-amd64/Packages
+ 8b9077779d11403ba0854e4fa56fe9466331da2a 5545 main/binary-amd64/Packages.gz
+ f4001e70acdcd9594bde4ac3cc283712500f23f5 151 main/binary-amd64/Release
+SHA256:
+ b8da47cde92c33b7df96735bca917b14485dc3300126fb9fee52d66b0e9a9623 16969 main/binary-amd64/Packages
+ d2fe91a771a8a3bd87941350315530b920e3dc6f62a062d29a31089db2874624 5545 main/binary-amd64/Packages.gz
+ aa273106d78f462cd9d4b7975e273288f55fa8cc7ab5dbc3ab1437bb667bd111 151 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJZ5nqKAAoJEJOGtIoaaTxc1vMP/38hSO9fFvLcfJsjC4YLvmQj
+45jX2PBRnoWEshml0YF9EymDibVeuNmUPjG+pvbyoZ1g255WA8hVtNQm3pyI3gRv
+zaOt7M3vPoGKckWNr5emyxtrI1/hEm7MnbzSpSn6fOo9vRPBOwzDZS/QnMwYKm06
+q1au2jzR8HIFzy25275ywO+pQQbYUoYP30kV11ksfDIiJhC3FyDctnjThfEqr69H
+rynMYollBi9fczQ/KEgmFlKC4F+kDNSTDjZzUUte0L2f6MhS0P6/NoQp2uiRvY7+
+frqDiJmfQN9QXCeIeNswUPb9CoRUQA1TzchG9643N3NDEk/snAylpXhc0QN4Sozk
+ym9NrYOjhK+93L7YlPa0YuYuxpj4etcH5GB789+H/eaBEcv1WtmNapQQMWgzwYK1
+2E1RZ0CtR9vm6JX0rxUNCKeVaYn8zwt6oDQEU7pKDCuMsbA09gpjwr2VfEKL6hyp
+oHfOZUonGSx4CRm7Wn6JKgDcoGeMSY5gFeps46H862cTBNPIlCGquHRaueK1XGUk
+io1HgHPdO/FzUAOtOQfpYggzD3GGTnhYtF7oWj185Al4cLHS+QKmnLJqjG5n4deP
+MaiF673ZkEZ7wsgg63c9N7iihIboZPN21uFDMJQlD8RJmbgES7FMcgkSP2fWz+zh
+JXBMbimJfQr+hR/2txAb
+=ZZXV
+-----END PGP SIGNATURE-----

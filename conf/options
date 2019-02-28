@@ -1,0 +1,3 @@
+verbose
+ask-passphrase
+basedir /var/repo/rocm/apt/debian
